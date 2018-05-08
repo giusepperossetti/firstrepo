@@ -1,0 +1,24 @@
+body {
+  font-family: arial, sans-serif;
+}
+h1, h3 {
+  color: #ffffff;
+}
+#titolo {
+  align-content: center;
+}
+#bottone {
+  align-content: center;
+  text-decoration: none;
+  padding: 4px, 8px, 4px, 8px;
+  background-color: red;
+  border: none;
+  transition-property: background-color;
+  transition-duration: .4s;
+  transition-property: color;
+  transition-duration: .4s;
+}
+#bottone:hover {
+  background-color: white;
+  color: #6b6b6b;
+}
